@@ -88,7 +88,7 @@ import Data.Monoid
 import Data.Maybe hiding (mapMaybe)
 import Data.Foldable hiding (toList)
 import Data.Traversable
-import Data.Ord
+import Data.Ord hiding (Down)
 
 import qualified Data.PQueue.Min as Min
 import qualified Data.PQueue.Prio.Max.Internals as Prio
