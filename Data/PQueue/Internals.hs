@@ -1,4 +1,4 @@
-{-# LANGUAGE CPP #-}
+{-# LANGUAGE CPP, StandaloneDeriving #-}
 
 module Data.PQueue.Internals (
 	MinQueue (..),
