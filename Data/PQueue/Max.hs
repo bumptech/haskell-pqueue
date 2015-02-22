@@ -86,7 +86,7 @@ import Control.DeepSeq
 
 import Data.Monoid
 import Data.Maybe hiding (mapMaybe)
-import Data.Foldable hiding (toList)
+import Data.Foldable (Foldable(foldl, foldr))
 import Data.Traversable
 import Data.Ord hiding (Down)
 

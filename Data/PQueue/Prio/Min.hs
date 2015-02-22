@@ -117,7 +117,7 @@ module Data.PQueue.Prio.Min (
 import Control.Applicative (Applicative (..), (<$>))
 import Data.Monoid 
 import qualified Data.List as List
-import Data.Foldable hiding (toList)
+import Data.Foldable (Foldable(foldl, foldl', foldr))
 import Data.Traversable
 import Data.Maybe (fromMaybe)
 
