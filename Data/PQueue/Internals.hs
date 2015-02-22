@@ -33,7 +33,7 @@ module Data.PQueue.Internals (
 import Control.DeepSeq
 
 import Data.Functor
-import Data.Foldable (Foldable (..))
+import Data.Foldable (Foldable (foldr, foldl))
 import Data.Monoid (Monoid (..))
 import qualified Data.PQueue.Prio.Internals as Prio
 
